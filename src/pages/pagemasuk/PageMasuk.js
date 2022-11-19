@@ -16,7 +16,7 @@ const PageMasuk = () => {
 
   useEffect(() => {
     dispatch(Signin([email], [password]));
-  }, []);
+  });
 
   const SubmitForm = (e) => {
     e.preventDefault();
